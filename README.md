@@ -19,7 +19,7 @@
 ### Links
 
 - Solution URL: [https://github.com/Taktoka/simple-game.git](https://github.com/Taktoka/simple-game.git)
-- Live Site URL: []()
+- Live Site URL: [https://simple-game-five.vercel.app/](https://simple-game-five.vercel.app/)
 
 
 
