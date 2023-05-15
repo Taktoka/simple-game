@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Slab", serif;
+  background-color: #d5cea3;
+  transition: 0.3s;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.players {
+  width: 80%;
+  margin: 100px auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  border: 1px solid #a99696;
+}
+.players .player-box {
+  width: 300px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+
+.players .player-box .progress {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #ddd;
+  background-color: #d5cea3;
+  margin-bottom: 20px;
+}
+.players .player1-progress span,
+.players .player2-progress span {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.players .player1-progress span {
+  background-color: #77019a;
+}
+.players .player2-progress span {
+  background-color: #23d2e8;
+}
+.players .player-box h2 {
+  margin-bottom: 15px;
+}
+.players .player-box img {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 20px;
+}
+.player-box .actions {
+  margin-bottom: 15px;
+}
+.player-box .player1-actions button {
+  background-color: #77019a;
+}
+.player-box .player2-actions button {
+  background-color: #23d2e8;
+  color: #404040;
+}
+.player-box button {
+  width: 75px;
+  padding: 3px 5px;
+  border: none;
+  font-family: "Roboto Slab", serif;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.player-box p {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.status {
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 75%;
+  padding: 20px;
+  background-color: #d5cea3;
+}
+.status .player1-stat {
+  background-color: #77019a;
+  width: 200px;
+  padding: 10px;
+  display: none;
+}
+.status .player2-stat {
+  background-color: #23d2e8;
+  width: 200px;
+  padding: 10px;
+  display: none;
+}
+.status .player1-stat.show {
+  display: block;
+}
+.status .player2-stat.show {
+  display: block;
+}
+.status .player1-stat p,
+.status .player2-stat p {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+.status .player1-stat p {
+  color: #fff;
+}
+.status .player2-stat p {
+  color: #404040;
+}

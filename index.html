@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple War Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="players">
+        <div class="player-box">
+          <div class="progress player1-progress">
+            <span></span>
+          </div>
+          <h2 class="player1-name">Player 1</h2>
+          <img src="images/player-1.webp" alt="" />
+          <div class="actions player1-actions">
+            <button class="player1-attack">Attack</button>
+            <button class="player1-health">Health</button>
+            <button class="player1-status">Statue</button>
+          </div>
+          <p class="player1-done"></p>
+        </div>
+        <div class="player-box">
+          <div class="progress player2-progress">
+            <span></span>
+          </div>
+          <h2 class="player2-name">Player 2</h2>
+          <img src="images/player-2.jpg" alt="" />
+          <div class="actions player2-actions">
+            <button class="player2-attack">Attack</button>
+            <button class="player2-health">Health</button>
+            <button class="player2-status">Statue</button>
+          </div>
+          <p class="player2-done"></p>
+        </div>
+      </div>
+      <div class="status">
+        <div class="player1-stat"></div>
+        <div class="player2-stat"></div>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
