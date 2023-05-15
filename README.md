@@ -18,7 +18,7 @@
 
 ### Links
 
-- Solution URL: []()
+- Solution URL: [https://github.com/Taktoka/simple-game.git](https://github.com/Taktoka/simple-game.git)
 - Live Site URL: []()
 
 
@@ -27,4 +27,4 @@
 
 ## Author
 
-- [@Heba]()
+- [@Heba](https://github.com/Taktoka)
